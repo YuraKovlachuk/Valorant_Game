@@ -1,0 +1,182 @@
+@import url('http://fonts.cdnfonts.com/css/valorant');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+
+body {
+    background: #1c252e;
+    font-family: 'VALORANT', sans-serif;
+}
+
+header {
+    font-size: 4rem;
+    text-align: center;
+    margin: 20px 0;
+    color: #d33740;
+}
+
+.start,
+.fight {
+    background: none;
+    border: 2px solid #d33740;
+    color: #d33740;
+    font-family: 'VALORANT', sans-serif;
+    height: 70px;
+    width: 200px;
+    font-size: 1.5rem;
+    display: block;
+    margin: 250px auto 0 auto;
+    line-height: 70px;
+    transition: 0.1s linear;
+}
+
+.fight {
+    margin-top: 0px;
+}
+
+.start:hover,
+.fight:hover {
+    border-color: #1c252e;
+    background: #d33740;
+    cursor: pointer;
+    color: #1c252e;
+}
+
+.hidden {
+    display: none;
+}
+
+.characters-list {
+    max-width: 1280px;
+    margin: 50px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.character-box {
+    border: 2px solid #d33740;
+    color: #d33740;
+    width: 220px;
+    text-align: center;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+    background: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltbded518020183769/5eb26f5389bac8148a8006cc/agent-background-generic.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 0 0 0;
+    margin: 0;
+}
+
+.character-img {
+    width: 50%;
+}
+
+.character-info {
+    color: #d33740;
+    font-weight: 600;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.character-stats {
+    font-family: 'Secular One', sans-serif;
+    background-color: #d33740;
+    color: #1c252e;
+    box-sizing: border-box;
+    padding-top: 3px;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.name {
+    font-size: 1.5rem;
+    margin: 10px 0 0 0;
+}
+
+.choose {
+    background: none;
+    border: 2px solid #1c252e;
+    color: #d33740;
+    background: #1c252e;
+    font-family: 'VALORANT', sans-serif;
+    height: 35px;
+    width: 65%;
+    font-size: 1.1rem;
+    line-height: 35px;
+    transition: 0.1s linear;
+    margin-bottom: 10px;
+}
+
+.choose:hover {
+    border-color: #1c252e;
+    background: #d33740;
+    color: #1c252e;
+    cursor: pointer;
+}
+
+.battle-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.vs {
+    color: white;
+    font-size: 3rem;
+}
+
+.character-box-fight {
+    border: 2px solid #d33740;
+    color: #d33740;
+    width: 250px;
+    text-align: center;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+    background: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltbded518020183769/5eb26f5389bac8148a8006cc/agent-background-generic.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 0 0 0;
+    margin: 0;
+}
+
+.character-fight-img {
+    width: 75%;
+}
+
+.character-fight-info {
+    color: #d33740;
+    font-weight: 600;
+    margin: 0;
+}
+
+.character-fight-stats {
+    font-family: 'Secular One', sans-serif;
+    background-color: #d33740;
+    color: #1c252e;
+    box-sizing: border-box;
+    padding-top: 3px;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.character-fight-stats>p {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.result {
+    padding: 0 50px;
+    min-height: 92px;
+    background: #d33740;
+    font-size: 3rem;
+    text-align: center;
+    color: #1c252e;
+    margin-bottom: 40px;
+    line-height: 92px;
+}
